@@ -1,8 +1,11 @@
 module aoc-in-go
 
-go 1.21.3
+go 1.22
 
-require github.com/jpillora/puzzler v1.3.3
+require (
+	github.com/gbatagian/deepsort v0.1.4
+	github.com/jpillora/puzzler v1.3.3
+)
 
 require (
 	github.com/JohannesKaufmann/html-to-markdown v1.4.2 // indirect
